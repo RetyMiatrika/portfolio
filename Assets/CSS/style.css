@@ -1,0 +1,175 @@
+.root {
+  width: auto;
+  height: auto;
+  background-color: #27374d;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+  border-radius: 30%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100w;
+  height: 15mm;
+  background-color: #27374d;
+}
+
+section {
+  background-color: #27374d;
+}
+
+footer {
+  background-color: #a6e3e9;
+}
+
+body header ul li {
+  list-style-type: armenian;
+  display: inline-flex;
+  font-family: fantasy;
+  font-size: xx-large;
+  font-style: italic;
+  color: white;
+}
+
+body header ul li button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+
+  align-items: center;
+  margin-top: 5mm;
+  justify-items: center;
+  border-left-width: 1mm;
+  border-color: white;
+}
+
+body header {
+  text-align: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+body header ul li button i {
+  color: white;
+}
+
+.presentation {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  font-size: xx-large;
+  font-style: italic;
+  align-content: center;
+  justify-content: center;
+  border: 1px white solid;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 3px 3px 3px 3px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.apropos {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #526d82;
+}
+
+.apropos h2 {
+  text-decoration-line: underline;
+  font-style: italic;
+  color: white;
+}
+
+.apropos article {
+  border: none;
+  font-size: medium;
+  width: fit-content;
+  height: min-content;
+  color: white;
+}
+.sary {
+  width: 200px;
+  height: 200px;
+}
+
+.experiences {
+  width: 100w;
+  height: 200vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+
+  background-color: #9db2bf;
+}
+.experiences div {
+  background-color: #9db2bf;
+  font-size: xx-large;
+  color: #27374d;
+  margin-top: 0%;
+  text-decoration: none;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.experiences article {
+  color: #27374d;
+  border-color: #27374d;
+}
+
+.formations {
+  background-color: #dde6ed;
+  width: 100w;
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+.formations div {
+  font-size: xx-large;
+  color: #27374d;
+  margin-top: 0%;
+  text-decoration: none;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.formations article {
+  color: #27374d;
+  border-color: #27374d;
+}
+
+.competences {
+  background-color: #dde6ed;
+  width: 100w;
+  height: 150vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
